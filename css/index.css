@@ -186,6 +186,19 @@ a {
   color: #23293B;
   cursor: pointer;
 }
+.title nav ul li a:hover {
+  animation: in 0.5s ease-out forwards;
+}
+@keyframes in {
+  100% {
+    letter-spacing: 1.5px;
+    background-color: #81848E;
+    color: #F6F7F8;
+    padding: 4px;
+    border: 1px solid #23293B;
+    border-radius: 3px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
