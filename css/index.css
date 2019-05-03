@@ -163,6 +163,7 @@ a {
   font-size: 1.6rem;
   color: #23293B;
   text-decoration: none;
+  cursor: pointer;
 }
 .container {
   max-width: 800px;
@@ -245,6 +246,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 4.5vh;
+  height: 4.5vh;
+  width: 7vw;
+  font-size: 2rem;
+  background-color: #23293B;
+  color: #F6F7F8;
+  border-radius: 5px;
 }
 .home .walk .walk-img {
   width: 46%;
